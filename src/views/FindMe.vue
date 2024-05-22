@@ -21,9 +21,9 @@
                     link="https://github.com/duartevital"
                 />
                 <FindMeIcons
-                    title="instagram"
+                    title="linkedin"
                     content="duartevital"
-                    link="http://instagram.com/duartevital"
+                    link="https://linkedin.com/in/duarte-vital/"
                 />
             </div>
         </div>
