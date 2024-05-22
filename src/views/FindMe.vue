@@ -63,7 +63,7 @@ export default {
 
 <style scoped>
 .main-container {
-  padding-bottom: 20em;
+  padding-bottom: 4em;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;

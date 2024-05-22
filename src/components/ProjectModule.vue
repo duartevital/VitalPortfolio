@@ -17,7 +17,6 @@
                 <span v-if="read" class="read-more" @click="readMore">Read more →</span>
             </p>
         </div>
-        <!--<img ref="image" class="cover-image" :src="coverImage" :alt="`Screenshot of ${projectName}`" @click="emitImage" />-->
     </article>
 </template>
 
@@ -58,7 +57,6 @@ export default {
     },
     mounted() {
         const {  container } = this.$refs;
-        //this.addMouseHoverEventListeners(image, this.rotateToMouse, true);
         this.addMouseHoverEventListeners(container, this.rotateToMouseContainer);
     },    
 
@@ -71,13 +69,9 @@ export default {
         },
     },
     methods: {
-        addMouseHoverEventListeners(element, rotatingFunc, isImage) {
+        addMouseHoverEventListeners(element, rotatingFunc) {
             element.addEventListener('mouseenter', () => {
-                if (isImage) {
-                this.imageBounds = element.getBoundingClientRect();
-                } else {
                 this.containerBounds = element.getBoundingClientRect();
-                }
                 document.addEventListener('mousemove', rotatingFunc);
             });
 
@@ -89,9 +83,6 @@ export default {
         },
         readMore() {
             window.open(this.read, "_blank", "noopener");
-        },
-        emitImage() {
-            this.$emit("emitImage", this.coverImage);
         },
         rotateToMouse(e) {
             const { clientX, clientY } = e;

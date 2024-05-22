@@ -7,7 +7,6 @@
         :key="project.index"
         >
         <ProjectModule
-            v-on:emitImage="imagePreview"
             :title="project[Object.keys(project).toString()].title"
             :preview="project[Object.keys(project).toString()].preview_links"
             :type="project[Object.keys(project).toString()].category"
@@ -42,9 +41,6 @@ export default {
         criteriaSeletion(type) {
             this.selectedType = type;
         },
-        imagePreview(e) {
-            this.$emit('emitImage', e)
-        }
     },
     computed: {
         filterProject() {
