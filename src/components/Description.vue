@@ -8,7 +8,7 @@
       even across different time zones.
     </p>
     <p>
-      Over the past three years, I have honed my skills in .NET and C#, crafting efficient and scalable solutions that meet client 
+      Over the past four years, I have honed my skills in .NET and C#, crafting efficient and scalable solutions that meet client 
       needs. Additionally, my proficiency in Vue.js and TypeScript enables me to create dynamic and responsive front-end interfaces. 
       My dedication to staying updated with the latest technologies ensures that I am always equipped to tackle new challenges and 
       deliver high-quality results.
