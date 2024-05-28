@@ -35,11 +35,11 @@
       <li>
         <img src="../assets/icons/sql.svg" alt="sql" />
       </li>
-      <li>
+      <!--<li>
         <a :href="pdf" download>
           <button>Resume</button>
         </a>
-      </li>
+      </li>-->
     </ul>
   </article>
 </template>
